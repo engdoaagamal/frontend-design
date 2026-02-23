@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My design </title>
+
+   <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+        }
+.my_nav{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    top:0;
+    z-index: 3;
+}
+.h_link{
+    color: black;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+.h_link:hover{
+    background-color: rgb(154, 160, 167);
+
+}
+/* .links{
+    
+} */
+ .main{
+    max-width: 85%;
+    margin: auto;
+ }
+.header{
+    width: 100%;
+
+position: relative;
+
+ 
+}
+.header_text{
+position: absolute;
+top: 45%; 
+left: 45%; 
+color: white;
+letter-spacing: 3px;
+
+}
+.text{
+    font-size: 25px;
+    padding: 10px;
+   
+}
+hr{ border-bottom: 1px solid gray;
+width: 99%;
+margin:10px auto;}
+.color_gray{
+    /* color: gray; */
+    font-size: 18px;
+    
+}
+.big_cotainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.img_txt_only{
+    position: relative;
+    width: 23%;
+}
+._img{
+    width: 100%;
+}
+.txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.card{
+    width: 24%;
+}
+.img_card{
+    width: 100%;
+}
+.sub_title{
+    color: gray;
+    margin: 5px 0px;
+}
+.btn_card{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    background-color: lightgray;
+}
+.btn_card:hover{
+    background-color: lightslategray;
+}
+.form_input{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.btn_submit{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+     padding: 10px;
+     border: none;
+}
+footer{
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+padding: 100px;
+
+font-size: 30px;
+}
+.btn_footer{
+    border-radius: 50%;
+    position: absolute;
+    background-color: wheat;
+    top:30%;
+    right: 10%;
+    font-size: 25px;
+    color: black;
+text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 601px) {
+  .big_cotainer {
+    flex-wrap: wrap;
+  }
+  .header_text{
+    top: 30%; 
+left: 50%; 
+  }
+  .img_txt_only,
+  .card {
+    width: 48%;
+  }
+}
+
+/* 600px and below — 1 column */
+@media only screen and (max-width: 600px) {
+  .big_cotainer {
+    flex-direction: column;
+  }
+.Architects ,.links{
+    display: none;
+}
+  .img_txt_only,
+  .card {
+    width: 100%;
+  }
+  .header_text{
+    top: 30%; 
+left: 50%; 
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="my_nav">
+        <a href="" class="h_link logo"><b>BR</b>Architects</a>
+        <a href="" class="h_link links"><b>BR</b>Architects</a>
+        <a href="" class="h_link links"><b>BR</b>Architects</a>
+        <a href="" class="h_link links"><b>BR</b>Architects</a>
+    </nav>
+    <div class="main">
+
+   
+    <div class="header">
+        <img style="width: 100%;"  src="https://www.w3schools.com/w3images/architect.jpg" alt="">
+        <h1 class="header_text">
+            <b style="background-color: rgba(0, 0, 0,.5); color: white; font-weight: bolder;">BR</b>
+           <span class="Architects"> Architects </span> 
+        </h1>
+    </div>
+    <div class="text">Projects
+        <hr>
+    </div>
+    <!-- 1 -->
+    <div class="big_cotainer">
+        <div class="img_txt_only">
+            <img src="	https://www.w3schools.com/w3images/house5.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+        <div class="img_txt_only">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+        <div class="img_txt_only">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+        <div class="img_txt_only">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+    </div>
+
+    <!-- section 2 -->
+
+    <div class="big_cotainer">
+        <div class="img_txt_only">
+            <img src="	https://www.w3schools.com/w3images/house5.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+        <div class="img_txt_only">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+        <div class="img_txt_only">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+        <div class="img_txt_only">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" class="_img">
+        <span class="txt">
+            Summer House
+        </span>   
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="text">Projects
+        <hr>
+        <p class="color_gray">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dignissimos assumenda rerum reiciendis sit ut iusto odit! Quas mollitia iure iste, consequatur quaerat in aliquid magnam! Quod fuga blanditiis maiores nisi saepe sunt, similique corporis inventore dignissimos mollitia tempore voluptate distinctio repudiandae deleniti at incidunt? Molestiae debitis laboriosam minima nihil? Quaerat hic et, tempore facere nisi molestias aspernatur est in maiores ipsa voluptatibus magnam natus debitis, sit, deleniti pariatur eius minus enim ab. Nobis ad vel quam? Id unde et atque, in vitae quo ea dolore explicabo itaque. Blanditiis cupiditate, numquam dolores atque aperiam enim nesciunt quidem ea ad a!
+        </p>
+    </div>
+    <!-- 4 -->
+    <div class="big_cotainer">
+        <div class="card">
+            <img src="	https://www.w3schools.com/w3images/house5.jpg" alt="" class="img_card">
+       <h2>John Doe</h2>
+       <p class="sub_title">
+           CFO & FOUNDER
+       </p>
+       <p class="description">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quis nam fugit tenetur modi dolore facere nobis ad expedita iste.
+       </p>
+       <button type="button" class="btn btn_card">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="	https://www.w3schools.com/w3images/house5.jpg" alt="" class="img_card">
+       <h2>John Doe</h2>
+       <p class="sub_title">
+           CFO & FOUNDER
+       </p>
+       <p class="description">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quis nam fugit tenetur modi dolore facere nobis ad expedita iste.
+       </p>
+       <button type="button" class="btn btn_card">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="	https://www.w3schools.com/w3images/house5.jpg" alt="" class="img_card">
+       <h2>John Doe</h2>
+       <p class="sub_title">
+           CFO & FOUNDER
+       </p>
+       <p class="description">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quis nam fugit tenetur modi dolore facere nobis ad expedita iste.
+       </p>
+       <button type="button" class="btn btn_card">Contact</button>
+        </div>
+
+        <div class="card">
+            <img src="	https://www.w3schools.com/w3images/house5.jpg" alt="" class="img_card">
+       <h2>John Doe</h2>
+       <p class="sub_title">
+           CFO & FOUNDER
+       </p>
+       <p class="description">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quis nam fugit tenetur modi dolore facere nobis ad expedita iste.
+         </p>
+       <button type="button" class="btn btn_card">Contact</button>
+        </div>
+    
+    </div>
+    <!-- 5 -->
+      <div class="text">Contact
+        <hr>
+        <p class="color_gray">
+           Lets get in touch and talk about your next project.
+        </p>
+        <form action=""  method="">
+            <input type="text" class="form_input" required placeholder="Name">
+            <input type="email" class="form_input" required placeholder="Email">
+            <input type="text" class="form_input" required placeholder="Subject">
+            <input type="text" class="form_input" required placeholder="Comment">
+           <button class="btn_submit" >SEND MESSAGE</button>
+        </form>
+    </div>
+    <!-- 6 -->
+     <div class="pic">
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="" class="_img">
+     </div>
+    <!-- 7 -->
+      </div>
+    <footer>
+prepare with Doaa Gamal 
+    </footer>
+</body>
+</html>
